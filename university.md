@@ -154,3 +154,7 @@ Modellizzare la struttura di un database per memorizzare tutti i dati riguardant
 - student_id
 - round_id
 - grade | SMALLINT(30)
+
+<!-- Nb: il -P 3366 é opzionala meno che non hai la porta 3306 o alter settate sul db
+- se port é 3306 il valore é di default
+/Applications/MAMP/Library/bin/mysql -u root -p -P 3366 -->
